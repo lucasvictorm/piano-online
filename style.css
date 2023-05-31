@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#fundo-piano{
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    background-color: black;
+    width: 500px;
+    height: 200px;
+    align-items: end;
+    gap:20px;
+}
+
+#fundo-piano div:first-child{
+    margin-left: 20px;
+    background-color: aqua;
+}
+
+.tecla-branca{
+    margin-bottom: 15px;
+    background-color: white;
+    width: 50px;
+    height: 110px;
+    border-radius: 7px;
+}
+
+.tecla-preta{
+    
+}
