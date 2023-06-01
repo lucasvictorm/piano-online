@@ -74,7 +74,7 @@ h1{
     background-color: black;
 }
 
-.keys-active{
+.back-active{
     border: 0;
     background-color: white;
     justify-content: end;
@@ -92,6 +92,7 @@ h1{
 
 #teclas-piano span{
     padding: 10px;
+    display: none;
 }
 
 .branca{
