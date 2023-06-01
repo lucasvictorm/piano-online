@@ -16,7 +16,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: rgb(32, 32, 32);
 }
 
 #fundo-piano{
@@ -35,6 +35,49 @@ main{
     background-color: rgb(0, 0, 0);
     width: 100%;
     height: 80px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1{
+    font-size: 1.2em;
+}
+
+#select-show{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.back-show{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 3px;
+    border: 2px solid white;
+}
+
+.circle-show{
+    background-color: white;
+    height: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+
+.circle-active{
+    background-color: black;
+}
+
+.keys-active{
+    border: 0;
+    background-color: white;
+    justify-content: end;
 }
 
 #teclas-piano{
@@ -44,9 +87,10 @@ main{
     height: 220px;
     display: flex;
     padding: 20px;
+    user-select: none;
 }
 
-span{
+#teclas-piano span{
     padding: 10px;
 }
 
