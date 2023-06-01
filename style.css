@@ -140,3 +140,13 @@ h1{
 #teclas-piano .branca:nth-child(17){
     margin-right: 10px;
 }
+
+.branca-click{
+    background-color: rgb(170, 170, 170);
+}
+
+.preta-click{
+    background: linear-gradient(rgb(41, 41, 41), rgb(0, 0, 0));
+    height: 59%;
+    border: 0;
+}
