@@ -114,3 +114,4 @@ document.body.addEventListener('keyup', (key) => {
     key.preventDefault();
     keysUpMap[key.key]();
 });
+
