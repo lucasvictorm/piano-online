@@ -1,4 +1,4 @@
-const keys = document.querySelectorAll("tecla");
-keys.forEach((keys) => {
-    addEventListener(onclick, () => {console.log('clique')})
+const keys = document.querySelectorAll(".tecla");
+keys.forEach((key) => {
+    key.addEventListener('click', () => {console.log('clique')})
 })
