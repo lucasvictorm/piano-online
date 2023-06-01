@@ -51,3 +51,35 @@ keys.forEach((key) => {
 })
 
 showkeysbox.addEventListener('click', () => {showKeys()})
+
+const keysMap = {
+    "1":() => clickDown(keys[0]),
+    "2":() => clickDown(keys[1]),
+    "3":() => clickDown(keys[2]),
+    "4":() => clickDown(keys[3]),
+    "5":() => clickDown(keys[4]),
+    "6":() => clickDown(keys[5]),
+    "7":() => clickDown(keys[6]),
+    "8":() => clickDown(keys[7]),
+    "9":() => clickDown(keys[8]),
+    "0":() => clickDown(keys[9]),
+    "q":() => clickDown(keys[10]),
+    "w":() => clickDown(keys[11]),
+    "e":() => clickDown(keys[12]),
+    "r":() => clickDown(keys[13]),
+    "t":() => clickDown(keys[14]),
+    "y":() => clickDown(keys[15]),
+    "u":() => clickDown(keys[16]),
+    "i":() => clickDown(keys[17]),
+    "o":() => clickDown(keys[18]),
+    "p":() => clickDown(keys[19]),
+    "a":() => clickDown(keys[20]),
+    "s":() => clickDown(keys[21]),
+    "d":() => clickDown(keys[22]),
+    "f":() => clickDown(keys[23])
+}
+
+document.body.addEventListener('keydown', (key) => {
+    key.preventDefault();
+    keysMap[key.key]();
+});
